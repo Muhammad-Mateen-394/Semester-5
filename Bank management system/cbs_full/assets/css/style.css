@@ -1,0 +1,93 @@
+/* assets/css/style.css */
+body { background:#f8fbff; color:#222; }
+.navbar { box-shadow: none; }
+.text-primary { color:#0d6efd !important; }
+.sidebar { background: #fff; }
+.card { border-radius: 8px; }
+.btn-primary { background: #0d6efd; border-color:#0d6efd; }
+/* GLOBAL */
+body {
+    background: #f3f7ff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SIDEBAR */
+.sidebar {
+    height: 100vh;
+    border-right: 1px solid #e1e6f0;
+}
+
+.sidebar-link {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.sidebar-link i {
+    margin-right: 8px;
+}
+
+.sidebar-link:hover {
+    background: #e8f0ff;
+    color: #0d6efd;
+}
+
+/* DASHBOARD CARDS */
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    padding: 18px;
+}
+
+/* TABLES */
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.table thead {
+    background: #0d6efd;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background: #f0f6ff;
+}
+
+/* FORMS */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background: #0d6efd;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/* LOGIN PAGE STYLE */
+.login-box {
+    width: 380px;
+    padding: 25px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.icon-box {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
